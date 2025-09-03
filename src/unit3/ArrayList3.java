@@ -14,8 +14,11 @@ public class ArrayList3 {
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
-        Collections.sort(product);
+        product.addLast("Lichi");
+        product.addFirst("Gauva");
+        //Collections.sort(product);
         System.out.println(product);
+        System.out.println(product.getFirst());
     }
 }
 
